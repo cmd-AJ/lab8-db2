@@ -1,4 +1,4 @@
-CSV to MongoDB Importer
+# CSV to MongoDB Importer
 This script reads data from a CSV file (sup.csv) and imports it into a MongoDB collection called sup in the lab8 database. It uses bulk operations for efficient insertion.
 
 Features
