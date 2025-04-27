@@ -2,30 +2,26 @@
 This script reads data from a CSV file (sup.csv) and imports it into a MongoDB collection called sup in the lab8 database. It uses bulk operations for efficient insertion.
 
 Features
-Reads a CSV file and parses each row.
+- Reads a CSV file and parses each row.
 
-Converts certain fields to int or float types.
+- Converts certain fields to int or float types.
 
-Performs a bulk insert into MongoDB for efficiency.
+- Performs a bulk insert into MongoDB for efficiency.
 
-Loads MongoDB connection details securely from a .env file.
+- Loads MongoDB connection details securely from a .env file.
 
 Requirements
-Python 3.7+
+- Python 3.7+
 
-MongoDB instance 
+- MongoDB instance 
 
-sup.csv 
+- sup.csv 
 
 Installation
 Clone the repository or copy the script to your project directory.
 
 Install required Python packages:
-
-bash
-Copy
-Edit
-pip install python-dotenv pymongo
+  pip install python-dotenv pymongo
 Create a .env file in the project directory with your MongoDB connection URL:
 
 
